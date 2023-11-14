@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(114, 63, 114);
+    color: white;
+}
+
+
+.boxes {
+    border: 4px white solid;
+    background-color: rgb(102, 80, 80);
+    padding: 5%;
+    margin: 2%;
+
+    display: flex;
+
+
+}
+.header { 
+    display: flex;
+    flex-flow: row wrap;
+} 
+
+.central {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+section {
+    flex-grow: 2;
+}
+
+
+section, aside, footer {
+    display: flex;
+    flex-flow: column wrap;
+}
+.head {
+    padding: 5%;
+    margin: 1%;
+}
+
+#head-1, #head-2, #head-3,
+#head-4, #head-5 {
+    border: 4px white solid;
+    background-color: rgb(230, 173, 222);
+
+
+    width: 100%;
+}*/
+
+
+#head-1 img {
+    height: 90%;
+    background-color: green;
+} 
+
+.head-profile-1 {
+    display: flex;
+}
+
+
